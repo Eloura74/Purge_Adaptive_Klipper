@@ -54,6 +54,10 @@ De plus, ces valeurs peuvent également être utilisées pour créer des lignes 
 # **À quoi ressemble un maillage adaptatif?** #
 <br>
 
+![image](https://github.com/Eloura74/Purge_Adaptive_Klipper/blob/main/image/Exemple_BedMesh.png)
+
 Un maillage adaptatif est créé à partir des valeurs extraites du fichier Gcode et est adapté à la zone réellement utilisée lors de l'impression.
 <br>
 Cela permet d'obtenir un maillage de lit plus efficace et une meilleure qualité d'impression.
+<br><br>
+Aller, nous allons voir comment [Installer ceci]()
