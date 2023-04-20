@@ -60,4 +60,4 @@ Un maillage adaptatif est créé à partir des valeurs extraites du fichier Gcod
 <br>
 Cela permet d'obtenir un maillage de lit plus efficace et une meilleure qualité d'impression.
 <br><br>
-Aller, nous allons voir comment [Installer ceci]()
+Aller, nous allons voir comment [Installer ceci](https://github.com/Eloura74/Purge_Adaptive_Klipper/blob/main/Installation.md)
