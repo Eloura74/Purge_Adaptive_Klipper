@@ -1,5 +1,6 @@
 ##  ##
 
+
 <div align="center">
   
 # **Purge Adaptive Klipper** #
@@ -33,9 +34,18 @@ Cela permet d'améliorer la qualité de la première couche et de réduire le ga
 # **Comment fonctionne le maillage adaptatif?** #
 <br>
 
-Grâce au travail de kageurufu sur [exclude_object] dans le firmware Klipper, il est possible d'extraire la taille d'un objet tranché et de l'adapter à la taille d'un maillage de lit. En analysant plusieurs objets dans le fichier Gcode, la densité du maillage peut s'adapter à n'importe quel nombre d'objets tant qu'ils s'adaptent à la plaque de construction. Les valeurs minimales et maximales d'un maillage de lit peuvent ainsi être facilement modifiées pour chaque objet tranché.
+Grâce au travail de [kageurufu](https://github.com/kageurufu) sur [[exclude_object]](https://github.com/kageurufu/preprocess_cancellation) dans le firmware Klipper, il est possible d'extraire la taille d'un objet tranché et de l'adapter à la taille d'un maillage de lit.
+<br>
+En analysant plusieurs objets dans le fichier Gcode, la densité du maillage peut s'adapter à n'importe quel nombre d'objets tant qu'ils s'adaptent à la plaque de construction. 
+<br>
+Les valeurs minimales et maximales d'un maillage de lit peuvent ainsi être facilement modifiées pour chaque objet tranché.
 
 De plus, ces valeurs peuvent également être utilisées pour créer des lignes de purge localisées, ce qui permet d'éviter les longues promenades du plateau d'impression à la première ligne extrudée.
+<br><br>
 
-À quoi ressemble un maillage adaptatif?
-Un maillage adaptatif est créé à partir des valeurs extraites du fichier Gcode et est adapté à la zone réellement utilisée lors de l'impression. Cela permet d'obtenir un maillage de lit plus efficace et une meilleure qualité d'impression.
+# **À quoi ressemble un maillage adaptatif?** #
+<br>
+
+Un maillage adaptatif est créé à partir des valeurs extraites du fichier Gcode et est adapté à la zone réellement utilisée lors de l'impression.
+<br>
+Cela permet d'obtenir un maillage de lit plus efficace et une meilleure qualité d'impression.
