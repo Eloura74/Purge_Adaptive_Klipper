@@ -1,0 +1,1 @@
+Les valeurs que vous pouvez ajuster sont assez simples. Si la première ligne du logo voron est à moitié extrudée, vous devrez ajuster la variable_tip_distancevaleur. Voici une aide visuelle de ce qui variable_tip_distanceest lié à :
