@@ -53,7 +53,6 @@ SETUP_LINE_PURGE [parameters]
 ```
 [gcode_macro PRINT_START]
 gcode:
-    SETUP_KAMP_MESHING DISPLAY_PARAMETERS=1 LED_ENABLE=1 FUZZ_ENABLE=1 # PURGE ADAPTATIVE
     SETUP_VORON_PURGE DISPLAY_PARAMETERS=1 ADAPTIVE_ENABLE=1           # PURGE ADAPTATIVE
     .
     M140 S{BED_TEMP}
@@ -73,19 +72,6 @@ gcode:
     M220 S100       
 ```
 
-<br>
-
-## ## 
-<br>
-
-Voici une explication de chacun des paramètres:
-<br><br>
--**DISPLAY_PARAMETERS=1:** Ce paramètre permet d'afficher les paramètres de la fonction de maillage de lit sur l'écran de l'imprimante 3D.
-
--**LED_ENABLE=1:** Ce paramètre permet d'allumer une LED sur l'imprimante 3D lors de la réalisation de la fonction de maillage de lit.
-
--**FUZZ_ENABLE=1:** Ce paramètre permet de réaliser une fonction de "fuzzing" (approximation) pour compenser les erreurs de mesure et améliorer la précision du maillage de lit.
-<br>
 <br>
 
 ## ##
