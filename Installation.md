@@ -92,7 +92,6 @@ ou si vous ne voullez pas avoir tous les fichier choisissez ceux qui vous convie
 <br>
 
 ```
-[include KAMP/Adaptive_Mesh.cfg]
 [include KAMP/Voron_Purge.cfg]
 [include KAMP/Line_Purge.cfg]
 ```
