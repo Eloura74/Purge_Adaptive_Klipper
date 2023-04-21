@@ -33,4 +33,4 @@ Cette valeur nécessitera quelques ajustements pour que le logo soit propre et p
 
 ##  ##
 
-Vous pouvez aussi aller voir comment mettre en place le [Bed Mesh Adaptatif](https://github.com/Eloura74/Bed_Mesh_Adaptatif_Klipper/edit/main/README.md) si cela vous interesse.
+Vous pouvez aussi aller voir comment mettre en place le [Bed Mesh Adaptatif](https://github.com/Eloura74/Bed_Mesh_Adaptatif_Klipper/main/README.md) si cela vous interesse.
