@@ -13,4 +13,5 @@ Si la première ligne du logo voron est à moitié extrudée, vous devrez ajuste
 Voici une aide visuelle de ce qui variable_tip_distanceest lié à :
 <br>
 
-![image](https://github.com/Eloura74/Purge_Adaptive_Klipper/blob/main/image/tip-distance.png)
+<img src="https://github.com/Eloura74/Purge_Adaptive_Klipper/blob/main/image/tip-distance.png" width="50%" alt="image">
+
